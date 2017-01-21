@@ -53,7 +53,7 @@ namespace Xamarin.RecycleViewExample
 			switch (item.ItemId)
 			{
 				case Resource.Id.menu_edit:
-					RecManager = new GridLayoutManager(this,2,GridLayoutManager.Horizontal,false);
+					RecManager = new GridLayoutManager(this, 2); //,GridLayoutManager.Vertical,false);
 					RecView.SetLayoutManager(RecManager);
 					return true;
 				case Resource.Id.menu_save:
